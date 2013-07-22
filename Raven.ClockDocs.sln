@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Bundles.ClockDocs", "Raven.Bundles.ClockDocs\Raven.Bundles.ClockDocs.csproj", "{F2F1FEDD-882E-45B9-8957-7288818630FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Client.Bundles.ClockDocs", "Raven.Client.Bundles.ClockDocs\Raven.Client.Bundles.ClockDocs.csproj", "{E654F81E-C66B-45AD-8FB7-D2965EDD9FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Bundles.ClockDocs.Tests", "Raven.Bundles.ClockDocs.Tests\Raven.Bundles.ClockDocs.Tests.csproj", "{7AC7B1A0-1ECB-4F8D-83B3-837FCC5AD93A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE5788AD-A769-45DC-B86D-F20516F52430}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DE05DE62-2D20-4089-B06D-E55AE59CD9D0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F1FEDD-882E-45B9-8957-7288818630FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F1FEDD-882E-45B9-8957-7288818630FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F1FEDD-882E-45B9-8957-7288818630FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F1FEDD-882E-45B9-8957-7288818630FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E654F81E-C66B-45AD-8FB7-D2965EDD9FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E654F81E-C66B-45AD-8FB7-D2965EDD9FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E654F81E-C66B-45AD-8FB7-D2965EDD9FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E654F81E-C66B-45AD-8FB7-D2965EDD9FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC7B1A0-1ECB-4F8D-83B3-837FCC5AD93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC7B1A0-1ECB-4F8D-83B3-837FCC5AD93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC7B1A0-1ECB-4F8D-83B3-837FCC5AD93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC7B1A0-1ECB-4F8D-83B3-837FCC5AD93A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
