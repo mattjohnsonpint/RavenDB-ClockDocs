@@ -1,7 +1,7 @@
 ClockDocs Bundle for RavenDB
 =====================================
 
-This a custom bundle for RavenDB.  The current release requires RavenDB version 2.0.2261 or higher.
+This is a custom bundle for RavenDB.  The current release requires RavenDB version 2.0.2261 or higher.
 
 It keeps the current time updated periodically in RavenDB system documents, so that you can join to them in indexes with `LoadDocument`.
 
